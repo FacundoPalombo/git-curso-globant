@@ -1,0 +1,39 @@
+.container * {
+  width: 200px;
+  height: 200px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #DDDDDD;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.container .inherited {
+  display: inherit;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.aliceblue {
+  background-color: aliceblue;
+}
